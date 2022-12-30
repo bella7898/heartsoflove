@@ -6,6 +6,9 @@ function Navbar() {
   return (
     <div class="nav">
         <a>
+          <Link to="/"><img src="/assets/Hearts_2.png"></img></Link>
+        </a>
+        <a>
           <Link to="/">Home</Link>
         </a>
         <a>
