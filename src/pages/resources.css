@@ -1,0 +1,102 @@
+/***************************         Full Page Background          *******************************/
+
+body, html {
+  height: 100vh;
+  margin: 0;
+  padding:0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('./../assets/resources.png');
+  height: 100vh; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 0;
+} 
+
+/***************************          Website Body           *******************************/
+
+* {
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  padding: 0;
+  margin:0;
+  width: 100%;
+  height: auto;
+}
+  
+h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #ae4350;
+  font-size: 1.775em;
+}
+  
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content {
+   padding: 100px; 
+}
+
+/***************************           Cards            *******************************/
+
+.cards {
+  display: grid;
+   /* justify-content: space-evenly;*/
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 2rem;
+}
+
+.card {
+  height: 400px; /*only needs to be specified if image not provided*/
+  display: flex;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+} 
+  
+.card-content {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  font-size: .75rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #b2f3fa;
+  border: 3.5px solid #2c169c;
+  border-radius: 10px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+}
+  
+.card-content img {
+  padding: 0;
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%;
+}
