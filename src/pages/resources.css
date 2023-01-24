@@ -6,7 +6,7 @@ body, html {
   padding:0;
 }
 
-.bg {
+.bg-resources {
   /* The image used */
   background-image: url('./../assets/resources.png');
   height: 100vh; 

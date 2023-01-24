@@ -1,11 +1,13 @@
 import React from 'react';
 import "../index.css";
+import "./home.css";
 
 function Home() {
     return (
+        <>
+        <div class="bg-home"></div>
         <div class="content">
             <section class="himg">
-                <h1>Home</h1>
                 <button>Learn More</button>
                 <button>Join Us</button>
             </section>
@@ -58,6 +60,7 @@ function Home() {
                 <a href=""><img src="" alt=""/></a> 
             </section>
         </div>
+        </>
     );
 }
 

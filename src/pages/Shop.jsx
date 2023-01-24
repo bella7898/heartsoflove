@@ -5,7 +5,7 @@ import "./shop.css";
 function Shop() {
     return (
         <>
-        <div class="bg"></div>
+        <div class="bg-shop"></div>
         <div class="content">
             <h1>Look below to see the latest items in our shop!</h1>
             <p class = "subheading"> A Jolly Good Show Hoodie</p>

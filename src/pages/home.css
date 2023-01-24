@@ -1,0 +1,17 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding:0;
+  }
+  
+  .bg-home {
+    /* The image used */
+    background-image: url('./../assets/home.png');
+    height: 100vh; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0;
+  } 

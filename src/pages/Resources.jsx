@@ -5,7 +5,7 @@ import "./resources.css";
 function Resources() {
     return (
         <>
-        <div class="bg"></div>
+        <div class="bg-resources"></div>
         <div class="content">
         <section class="cards">
             {/* card 1 */}
