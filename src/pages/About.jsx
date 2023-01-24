@@ -1,5 +1,7 @@
 import React from 'react';
 import "../index.css";
+import about from './../assets/about.png';
+
 
 function About() {
     return (
@@ -14,7 +16,7 @@ function About() {
                     We aim to help those who are homeless, disadvantaged, or inconvenienced in order to achieve a well ordered society. By doing so, we can establish a superior lifestyle and provide shelter,
                     food, and other necessities with the aid of fundraisers, charity programs, and informational posts.
                 </p>
-                <img src="placeholder.jpg"></img>
+                <img src={about}></img>
                 <img src="placeholder.jpg"></img>
                 <img src="placeholder.jpg"></img>
                 <img src="placeholder.jpg"></img>

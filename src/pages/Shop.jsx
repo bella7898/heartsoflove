@@ -1,20 +1,33 @@
 import React from 'react';
 import "../index.css";
+import "./shop.css";
 
 function Shop() {
     return (
+        <>
+        <div class="bg"></div>
         <div class="content">
-            <section class="simg">
-                <h1>Shop</h1>
+            <h1>Look below to see the latest items in our shop!</h1>
+            <p class = "subheading"> A Jolly Good Show Hoodie</p>
+            <section class="contents">
+                <a href="" title="Get our Hoodie!">
+                    <article class="card">
+                    <div class="card-content">
+                        <img src="placeholder.jpg" alt=""/>
+                    </div>
+                    </article>
+                </a>
+                <a href="" title="Get our Hoodie!">
+                    <article class="card">
+                    <div class="card-content">
+                        <img src="placeholder.jpg" alt=""/>
+                    </div>
+                    </article>
+                </a>
             </section>
-            <section class="sintro">
-                <h1>Look below to see the latest items in our shop!</h1>
-                <p>A Jolly Good Show Hoodie</p>
-                <img src="placeholder.jpg"></img>
-                <img src="placeholder.jpg"></img>
-                <p>Click here to shop:</p>
-            </section>
+            <p>Click here to shop: <a href="https://my-store-c87b67.creator-spring.com/listing/a-jolly-good-show-hoodie">https://my-store-c87b67.creator-spring.com/listing/a-jolly-good-show-hoodie </a> </p>
         </div>
+        </>
     );
 }
 
