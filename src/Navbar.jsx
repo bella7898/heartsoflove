@@ -1,31 +1,22 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import "./index.css";
+import logo from "./assets/Hearts_2.png"
 
 function Navbar() {
   return (
     <div class="nav">
         <a>
-          <Link to="/"><img src="/assets/Hearts_2.png"></img></Link>
+          <Link to="/"><img src={logo}></img></Link>
         </a>
-        <a>
-          <Link to="/">Home</Link>
-        </a>
-        <a>
-          <Link to="/about">About</Link>
-        </a>
-        <a>
-          <Link to="/join">Join Us!</Link>
-        </a>
-        <a>
-          <Link to="/resources">Resources</Link>
-        </a>
-        <a>
-          <Link to="/shop">Shop</Link>
-        </a>
-        <a>
-          <Link>Contact Us</Link>
-        </a>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/join">Join Us!</Link></li>
+          <li><Link to="/resources">Resources</Link></li>
+          <li><Link to="/shop">Shop</Link></li>
+          <li><Link>Contact Us</Link></li>
+        </ul>
     </div>
   );
 }

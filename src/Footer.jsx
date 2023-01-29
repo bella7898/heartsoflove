@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import "./index.css";
+import img from './assets/Hearts_1.png'
 
 function Footer() {
   return (
     <div class="footer">
       <a>
-      <Link><img src="https://bella7898.github.io/reactjsedu/src/assets/hearts_1.png" alt="Hearts Of Love Logo" width="50" height="50"></img></Link>
+      <Link><img src={img} alt="Hearts Of Love Logo"></img></Link>
       </a>
       <a>
       <Link to="/">Home</Link>
@@ -23,24 +24,6 @@ function Footer() {
       <a>
       <Link to="/shop">Shop</Link>
       </a>
-      <a>
-      <Link>Start a Chapter!</Link>
-      </a>
-      <a>
-      <Link>Newsletter</Link>
-      </a>
-      <a>
-      <Link>Contact Us</Link>
-      </a>
-      <a>
-      <Link>
-      <form>
-          <input type="text"></input>
-          <input type="submit"></input>
-      </form>
-      </Link>
-      </a>
-      
       <p class="copyright">© Hearts of Love 2022</p>
     </div>
   );
