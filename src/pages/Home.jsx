@@ -1,6 +1,13 @@
 import React from 'react';
 import "../index.css";
 import "./home.css";
+import kids from '../assets/kids.jpg';
+import kids2 from '../assets/kids2.jpg';
+import hands from '../assets/hands.jpg';
+import girl from '../assets/girl.jpg';
+import game from '../assets/game.jpg';
+import comp from '../assets/comp.jpg';
+import mic from '../assets/mic.jpg';
 
 function Home() {
     return (
@@ -8,8 +15,8 @@ function Home() {
         <div class="bg-home"></div>
         <div class="content">
             <section class="himg">
-                <button>Learn More</button>
-                <button>Join Us</button>
+                <a class="button" href="">Learn More</a>
+                <a class="button" target="_blank" href="https://discord.gg/UgXPFdwgnV">Join Us</a>
             </section>
             <section class="hintro">
                 <h1>Who are we?</h1>
@@ -24,6 +31,17 @@ function Home() {
                 We also plan to create media advertisements and monthly newletters about our cause and to bring people together in order to help 
                 out these people in our world and community! 
                 </p>
+                <div class="row">
+                    <div class="column">
+                        <img src={kids}></img>
+                    </div>
+                    <div class="column">
+                        <img src={hands}></img>
+                    </div>
+                    <div class="column">
+                        <img src={kids2}></img>
+                    </div>
+                </div>
             </section>
             <section class="hchapter">
                 <h1>Start a Chapter</h1>
@@ -39,10 +57,20 @@ function Home() {
             </section>
             <section class="hevents">
                 <h1>Events</h1>
-                <a href=""><img src="" alt=""/></a>
-                <a href=""><img src="" alt=""/></a>
-                <a href=""><img src="" alt=""/></a>
-                <a href=""><img src="" alt=""/></a>
+                <div class="row">
+                    <div class="column">
+                        <img src={girl}></img>
+                    </div>
+                    <div class="column">
+                        <img src={game}></img>
+                    </div>
+                    <div class="column">
+                        <img src={comp}></img>
+                    </div>
+                    <div class="column">
+                        <img src={mic}></img>
+                    </div>
+                </div>
             </section>
             <section class="hdonate">
                 <h1>Donate</h1>
