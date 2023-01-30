@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.914bebe3.css",
-    "main.js": "/static/js/main.ab5c1950.js",
+    "main.css": "/static/css/main.1bca63f0.css",
+    "main.js": "/static/js/main.6a68bb67.js",
+    "static/media/resources.png": "/static/media/resources.c91ed54e2eddb25dcc7c.png",
+    "static/media/shop.png": "/static/media/shop.e259cb7f5e4bbd789af4.png",
+    "static/media/Hearts_2.png": "/static/media/Hearts_2.f51fbd369ca5833948db.png",
+    "static/media/home.png": "/static/media/home.f5ec343577c99fb7ca89.png",
+    "static/media/kids2.jpg": "/static/media/kids2.6c5a70253a6dde317ac9.jpg",
+    "static/media/kids.jpg": "/static/media/kids.5766381047ac9038a968.jpg",
+    "static/media/hands.jpg": "/static/media/hands.a0ea7fb94348964885f3.jpg",
+    "static/media/girl.jpg": "/static/media/girl.6657bace623efe2d960a.jpg",
+    "static/media/Hearts_1.png": "/static/media/Hearts_1.90e9692db863ee92eac2.png",
+    "static/media/team.jpg": "/static/media/team.438410ba36046181be9a.jpg",
+    "static/media/partner.jpg": "/static/media/partner.33ab18691f263a6de778.jpg",
+    "static/media/comp.jpg": "/static/media/comp.c6f3511b7cc9ed3b0ce7.jpg",
+    "static/media/donate.jpg": "/static/media/donate.5f81efa69061f5f77fdf.jpg",
+    "static/media/mic.jpg": "/static/media/mic.47711e381a4095fec8fe.jpg",
+    "static/media/game.jpg": "/static/media/game.5995149b4413dc4c8bea.jpg",
     "index.html": "/index.html",
-    "main.914bebe3.css.map": "/static/css/main.914bebe3.css.map",
-    "main.ab5c1950.js.map": "/static/js/main.ab5c1950.js.map"
+    "main.1bca63f0.css.map": "/static/css/main.1bca63f0.css.map",
+    "main.6a68bb67.js.map": "/static/js/main.6a68bb67.js.map"
   },
   "entrypoints": [
-    "static/css/main.914bebe3.css",
-    "static/js/main.ab5c1950.js"
+    "static/css/main.1bca63f0.css",
+    "static/js/main.6a68bb67.js"
   ]
 }
