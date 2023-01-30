@@ -1,13 +1,19 @@
 import React from 'react';
 import "../index.css";
 import "./home.css";
+/**********IMAGES**********/
 import kids from '../assets/kids.jpg';
 import kids2 from '../assets/kids2.jpg';
 import hands from '../assets/hands.jpg';
+
 import girl from '../assets/girl.jpg';
 import game from '../assets/game.jpg';
 import comp from '../assets/comp.jpg';
 import mic from '../assets/mic.jpg';
+
+import donate from '../assets/donate.jpg';
+import partner from '../assets/partner.jpg';
+import team from '../assets/team.jpg';
 
 function Home() {
     return (
@@ -76,16 +82,31 @@ function Home() {
                 <h1>Donate</h1>
                 <p>Help support our cause!</p>
                 <a href="https://hack.ms/donate-heartsoflove">https://hack.ms/donate-heartsoflove</a>
+                <div class="row">
+                    <div class="column">
+                    </div>
+                    <div class="column">
+                        <img src={donate}></img>
+                    </div>
+                    <div class="column">
+                    </div>
+                </div>
             </section>
             <section class="hpartners">
                 <h1>Partners</h1>
-                <a href=""><img src="" alt=""/></a>
-                <a href=""><img src="" alt=""/></a> 
+                <div class="row">
+                    <div class="column">
+                        <img src={partner}></img>
+                    </div>
+                    <div class="column">
+                        <img src={team}></img>
+                    </div>
+                    <div class="column">
+                    </div>
+                </div>
             </section>
             <section class="sponsors">
-                <h1>Sponsors</h1>
-                <a href=""><img src="" alt=""/></a>
-                <a href=""><img src="" alt=""/></a> 
+                <h1>Sponsors</h1> 
             </section>
         </div>
         </>
