@@ -1,0 +1,76 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding:0;
+  }
+  
+  .bg-join {
+    /* The image used */
+    background-image: url('./../assets/join.png');
+    height: 100vh; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0;
+  } 
+
+  .content{
+    margin: 0% 5%;
+  }
+
+  .jintro{
+    margin: 0% 15%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create one equal columns that sits next to each other */
+  .jintro .column, .jpartners .column, .jdonate .column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .jevents .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 90%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  img {
+    transform: scale(0.7);
+  }
+
+  a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(18, 193, 224);
+    text-decoration: underline;
+  }
+  
