@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ecb6e16.css",
-    "main.js": "/static/js/main.38742fc2.js",
+    "main.css": "/static/css/main.b594f5fa.css",
+    "main.js": "/static/js/main.f93f5b83.js",
     "static/media/about.png": "/static/media/about.b42535f82dfcfb58c4cd.png",
     "static/media/resources.png": "/static/media/resources.c91ed54e2eddb25dcc7c.png",
     "static/media/shop.png": "/static/media/shop.e259cb7f5e4bbd789af4.png",
@@ -27,11 +27,11 @@
     "static/media/game.jpg": "/static/media/game.5995149b4413dc4c8bea.jpg",
     "static/media/aboutchess.png": "/static/media/aboutchess.d0241b73c70b85ffa1c0.png",
     "index.html": "/index.html",
-    "main.2ecb6e16.css.map": "/static/css/main.2ecb6e16.css.map",
-    "main.38742fc2.js.map": "/static/js/main.38742fc2.js.map"
+    "main.b594f5fa.css.map": "/static/css/main.b594f5fa.css.map",
+    "main.f93f5b83.js.map": "/static/js/main.f93f5b83.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ecb6e16.css",
-    "static/js/main.38742fc2.js"
+    "static/css/main.b594f5fa.css",
+    "static/js/main.f93f5b83.js"
   ]
 }
