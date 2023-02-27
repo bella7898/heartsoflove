@@ -18,12 +18,13 @@ import team from '../assets/team.jpg';
 function Home() {
     return (
         <>
-        <div class="bg-home"></div>
+        <div class="bg-home">
+            <div class="button-link">
+            <a>Learn More</a>
+            <a target="_blank" href="https://discord.gg/UgXPFdwgnV">Join Us</a>
+            </div>
+        </div>
         <div class="content">
-            <section class="himg">
-                <a class="button" href="">Learn More</a>
-                <a class="button" target="_blank" href="https://discord.gg/UgXPFdwgnV">Join Us</a>
-            </section>
             <section class="hintro">
                 <h1>Who are we?</h1>
                 <p>Welcome to Hearts of Love. We are a student-led organization formed to help the world be a better place.
@@ -51,14 +52,14 @@ function Home() {
             </section>
             <section class="hchapter">
                 <h1>Start a Chapter</h1>
-                Good at organizing? Leading is your talent? What are you waiting for? Become a member of the chapter team now! Our chapters are in 
+                <p>Good at organizing? Leading is your talent? What are you waiting for? Become a member of the chapter team now! Our chapters are in 
                 different countries and here you will be organizing our chapters across the globe. The chapter lead is in charge of managing the chapter members, 
                 responsible for developing people and the things happening in the chapter. Our organization is a safe space where your talent
                 is respected and given credit for. We work for a better world, spread kindness, and organize events and much more! Apart from this, it\'s super fun
                 to be in the team, so be a member and enjoy all the benefits as well!
 
                 For more info, check out this link which will lead you to our information page with details more about joining the chapter team!
-                
+                </p>
                 <button href="">Apply Now</button>
             </section>
             <section class="hevents">
@@ -80,8 +81,7 @@ function Home() {
             </section>
             <section class="hdonate">
                 <h1>Donate</h1>
-                <p>Help support our cause!</p>
-                <a href="https://hack.ms/donate-heartsoflove">https://hack.ms/donate-heartsoflove</a>
+                <a href="https://hack.ms/donate-heartsoflove" target="_blank">Help support our cause!</a>
                 <div class="row">
                     <div class="column">
                     </div>
@@ -94,6 +94,7 @@ function Home() {
             </section>
             <section class="hpartners">
                 <h1>Partners</h1>
+                <a href="https://docs.google.com/document/d/1kGBv1cQDpJnLfaDYxR3_lFiJdEWFxEE4Rqq7FOaGLZQ/edit?usp=sharing" target="_blank">Become a Partner!</a>
                 <div class="row">
                     <div class="column">
                         <img src={partner}></img>
@@ -107,6 +108,7 @@ function Home() {
             </section>
             <section class="sponsors">
                 <h1>Sponsors</h1> 
+                <a href="https://docs.google.com/document/d/1mjHVq2c_9rork1arxWy12FW8aUZTJKY0IvbzVuWenWA/edit" target="_blank">Become a Sponsor!</a>
             </section>
         </div>
         </>
