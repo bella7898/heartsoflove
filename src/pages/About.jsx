@@ -129,6 +129,13 @@ import aboutmakepeople from '../assets/aboutmakepeople.png';
 import aboutpersonheart from '../assets/aboutpersonheart.png';
 import aboutredchess from '../assets/aboutredchess.webp';
 
+import aboutbhosale from '../assets/aboutbhosale.jpg';
+import aboutchiu from '../assets/aboutchiu.jpeg';
+import aboutkaushik from '../assets/aboutkaushik.JPG';
+import aboutlee from '../assets/aboutlee.jpg';
+import aboutsakura from '../assets/aboutsakura.jpeg';
+import aboutyengle from '../assets/aboutyengle.png';
+
 function About() {
     return (
         <>
@@ -166,40 +173,72 @@ function About() {
             <section class="ameet">
                 <h1 style={{ color: '#a42430' }}>Meet the Team:</h1>
                 <h2 style={{ color: '#6ca8a6' }}>Chapters</h2>
+                <img class = "one" src={aboutyengle}></img>
                 <h3 style={{ color: '#384a66' }}>Jimena Ramos Yengle (Age: 21)</h3>
                 <p>Jimena (she/her) is an artist who loves to live life with joy, she dedicates her time to leading social artistic projects around the world, and to writing romantic novels such as "Roma Enamorada" and "From here to the Cathedral".</p>
+                <br></br>
+                <br></br>
                 <h3 style={{ color: '#384a66' }}>Emma Furlong (Age: 16)</h3>
                 <p>Hi, I’m Emma! I love volunteering and am a part of multiple organizations regarding it. I love giving back to my community in clubs such as NAHS, NHS, Key Club, and Servant Leadership. In my free time, I enjoy reading, baking, playing sports, and coding.</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Content</h2>
+                <img class = "one" src={aboutbhosale}></img>
                 <h3 style={{ color: '#384a66' }}>Tanishka Bhosale (Age: 16)</h3>
                 <p>My name is Tanishka I am 16 years old. I am interested in Computer Science, Astronomy, Human-Computer Interaction, and AI. I have taken various courses on Python, and HCI in my free time. I am currently working on a research paper on Quantum computing. I also run a small blog on Astronomy and my various interests.</p>
+                <br></br>
+                <br></br>
+                <img class = "one" src={aboutchiu}></img>
                 <h3 style={{ color: '#384a66' }}>Erika Chiu</h3>
                 <p>Erika Chiu is a dedicated freshman in high school who has an interest in going into the technology career field. Some of her hobbies include reading, coding, debate, and volunteer work in different organizations with different impacts. She is the Director of Events in Hearts of Love, as well as a writer for the Content Creation team.</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Discord Moderation</h2>
                 <h3 style={{ color: '#384a66' }}>Evan Chen (Age: 15, School: JFSS)</h3>
                 <p>I have a lot of free time and work with discord bots. If there's something I don't know, google will be there for me.</p>
+                <img class = "two" src={aboutkaushik}></img>
                 <h3 style={{ color: '#384a66' }}>Lekha Kaushik (Age: 17)</h3>
                 <p>Well, I love to code. Leadership and debating are my strongest points. Always been the in the top students list. traditional aesthetics are my thing.</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Editorial</h2>
                 <h3 style={{ color: '#384a66' }}>Shunmei Z.</h3>
                 <p>I enjoy hiking and reading!</p>
+                <br></br>
+                <br></br>
                 <h3 style={{ color: '#384a66' }}>Jackey Chen (Age: 19, School: Queens College)</h3>
                 <p>A typical guy who loves the game of basketball more specifically the NBA, approaches the game analytically</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Event Management</h2>
+                <img class = "one" src={aboutsakura}></img>
                 <h3 style={{ color: '#384a66' }}>Y. Ishita Sakura</h3>
                 <p>Ishita is an amateur poet/writer, resulting in her overthinking skills. She's passionate about research work, management, organization and calligraphy. Lives in her poetry and isn't hesitant to meet new people and lend a helping hand.</p>
+                <br></br>
+                <br></br>
+                <img class = "one" src={aboutchiu}></img>
                 <h3 style={{ color: '#384a66' }}>Erika Chiu</h3>
-                <p>refer to Content!</p>
+                <p>Erika Chiu is a dedicated freshman in high school who has an interest in going into the technology career field. Some of her hobbies include reading, coding, debate, and volunteer work in different organizations with different impacts. She is the Director of Events in Hearts of Love, as well as a writer for the Content Creation team.</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Outreach</h2>
                 <h3 style={{ color: '#384a66' }}>Arita Zaman</h3>
                 <p>I'm a high school student who loves to give back to the community!</p>
+                <br></br>
+                <br></br>
                 <h2 style={{ color: '#6ca8a6' }}>Web Development</h2>
                 <h3 style={{ color: '#384a66' }}>Bella Wang (Age: 16)</h3>
                 <p>As an aspiring software developer, Bella is interested in machine learning, game development, and robotics. In her free time, she likes to play chess, soccer, and listen to rock music</p>
+                <br></br>
+                <br></br>
+                <img class = "two" src={aboutlee}></img>
                 <h3 style={{ color: '#384a66' }}>Claire Lee</h3>
                 <p>Claire Lee is interested in web development, security and privacy, and natural language processing. She hopes to continue making progress in utilizing engineering for humanitarian causes.</p>
-                <h3 style={{ color: '#384a66' }}>Lina Mariam (Age: 17)</h3>
+                <br></br>
+                <br></br>
+                <h3 style={{ color: '#384a66' }}>Lina Mariam (Age: 19)</h3>
                 <p>Sophomore in Univeristy pursuing Software Engineering. Reads books and makes art during downtime. </p>
+                <br></br>
             </section>
             <section class="apositions">
                 <h1 style={{ color: '#a42430' }}>Open positions:</h1>

@@ -86,3 +86,17 @@ body, html {
     text-decoration: underline;
   }
   
+  img.one {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  img.two {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
