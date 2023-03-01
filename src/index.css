@@ -54,6 +54,10 @@ footer img{
   border-radius: 10px;
 }
 
+footer a:hover{
+  color: white;
+}
+
 /*********SCROLLBAR*********/
 ::-webkit-scrollbar {
   width: 10px;
