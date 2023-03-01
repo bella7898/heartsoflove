@@ -25,7 +25,7 @@ function Shop() {
                     </article>
                 </a>
             </section>
-            <p>Click here to shop: <a href="https://my-store-c87b67.creator-spring.com/listing/a-jolly-good-show-hoodie">https://my-store-c87b67.creator-spring.com/listing/a-jolly-good-show-hoodie </a> </p>
+            <p>Click <a href="https://my-store-c87b67.creator-spring.com/listing/a-jolly-good-show-hoodie">here</a> to shop!</p>
         </div>
         </>
     );

@@ -245,7 +245,7 @@ function About() {
                 <p>Are you interested in initiating a new chapter and gaining leadership? If so, 
                     look into this link to get more details for beginning a chapter!
                 </p>
-                <a href="https://docs.google.com/document/d/13L6dgCqwFmRD5GCJOMAYO7LhyiEDE087cLMdARDtDCo/edit">https://docs.google.com/document/d/13L6dgCqwFmRD5GCJOMAYO7LhyiEDE087cLMdARDtDCo/edit</a>
+                <a href="https://docs.google.com/document/d/13L6dgCqwFmRD5GCJOMAYO7LhyiEDE087cLMdARDtDCo/edit">Begin a Chapter!</a>
             </section>
             <section class="aevents">
                 <h1 style={{ color: '#a42430' }}>Events</h1>
