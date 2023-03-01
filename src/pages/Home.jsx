@@ -6,6 +6,8 @@ import kids from '../assets/kids.jpg';
 import kids2 from '../assets/kids2.jpg';
 import hands from '../assets/hands.jpg';
 
+import chpt from '../assets/startachapter.jpg';
+
 import girl from '../assets/girl.jpg';
 import game from '../assets/game.jpg';
 import comp from '../assets/comp.jpg';
@@ -51,15 +53,20 @@ function Home() {
                 </div>
             </section>
             <section class="hchapter">
-                <h1>Start a Chapter</h1>
-                <p>Good at organizing? Leading is your talent? What are you waiting for? Become a member of the chapter team now! Our chapters are in 
-                different countries and here you will be organizing our chapters across the globe. The chapter lead is in charge of managing the chapter members, 
-                responsible for developing people and the things happening in the chapter. Our organization is a safe space where your talent
-                is respected and given credit for. We work for a better world, spread kindness, and organize events and much more! Apart from this, it\'s super fun
-                to be in the team, so be a member and enjoy all the benefits as well!
+                <h1>Start Your Own Chapter!</h1>
+                <div class="chpt">
+                    <div class="chpt-content">
+                        <p>Good at organizing? Leading is your talent? What are you waiting for? Become a member of the chapter team now! Our chapters are in 
+                        different countries and here you will be organizing our chapters across the globe. The chapter lead is in charge of managing the chapter members, 
+                        responsible for developing people and the things happening in the chapter. Our organization is a safe space where your talent
+                        is respected and given credit for. We work for a better world, spread kindness, and organize events and much more! Apart from this, it\'s super fun
+                        to be in the team, so be a member and enjoy all the benefits as well!
 
-                For more info, check out this link which will lead you to our information page with details more about joining the chapter team!
-                </p>
+                        For more info, check out this link which will lead you to our information page with details more about joining the chapter team!
+                        </p>
+                    </div>
+                    <img src={chpt}></img> 
+                </div>
                 <button href="">Apply Now</button>
             </section>
             <section class="hevents">
@@ -80,8 +87,7 @@ function Home() {
                 </div>
             </section>
             <section class="hdonate">
-                <h1>Donate</h1>
-                <a href="https://hack.ms/donate-heartsoflove" target="_blank">Help support our cause!</a>
+            <a href="https://hack.ms/donate-heartsoflove" target="_blank"><h1>Donate</h1>
                 <div class="row">
                     <div class="column">
                     </div>
@@ -91,10 +97,10 @@ function Home() {
                     <div class="column">
                     </div>
                 </div>
+                </a>
             </section>
             <section class="hpartners">
-                <h1>Partners</h1>
-                <a href="https://docs.google.com/document/d/1kGBv1cQDpJnLfaDYxR3_lFiJdEWFxEE4Rqq7FOaGLZQ/edit?usp=sharing" target="_blank">Become a Partner!</a>
+            <a href="https://docs.google.com/document/d/1kGBv1cQDpJnLfaDYxR3_lFiJdEWFxEE4Rqq7FOaGLZQ/edit?usp=sharing" target="_blank"><h1>Partners</h1>
                 <div class="row">
                     <div class="column">
                         <img src={partner}></img>
@@ -105,10 +111,10 @@ function Home() {
                     <div class="column">
                     </div>
                 </div>
+                </a>
             </section>
             <section class="sponsors">
-                <h1>Sponsors</h1> 
-                <a href="https://docs.google.com/document/d/1mjHVq2c_9rork1arxWy12FW8aUZTJKY0IvbzVuWenWA/edit" target="_blank">Become a Sponsor!</a>
+            <a href="https://docs.google.com/document/d/1mjHVq2c_9rork1arxWy12FW8aUZTJKY0IvbzVuWenWA/edit" target="_blank"><h1>Sponsors</h1></a>
             </section>
         </div>
         </>

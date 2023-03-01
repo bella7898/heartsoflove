@@ -1,7 +1,7 @@
 body, html {
     height: 100vh;
     margin: 0;
-    padding:0;
+    padding: 0;
   }
   
   .bg-home {
@@ -25,7 +25,7 @@ body, html {
   }
 
   .hintro{
-    margin: 0% 15%;
+    margin: 0% 10%;
   }
 
   .row {
@@ -53,6 +53,22 @@ body, html {
 
   .button-link a{
     padding: 1.5% 2.5%;
+  }
+
+  .hchapter{
+    margin: 0;
+    padding: 0;
+  }
+
+  .chpt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chpt img{
+    width: 50%;
+    height: 50%;
   }
 
   /* Create three equal columns that sits next to each other */
